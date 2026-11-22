@@ -1,26 +1,20 @@
-# Checking Nonprofit Clients Against IRS Records
+# [Your name or alias]: public datasets and the decisions they help with
 
-A planned EIN lookup that compares a prospective nonprofit client with public IRS records and flags differences for the engagement partner's accept, defer or decline decision.
+This is a class project for GMBA 634 at Gannon University. It is not paid or client work.
 
-## Data source
-IRS Exempt Organizations Business Master File Extract (EO BMF), Region 1: Northeast (eo1.csv), downloaded 11/17/2026.
-https://www.irs.gov/charities-non-profits/exempt-organizations-business-master-file-extract-eo-bmf
+## What I did
+[Two or three sentences in your own words: which datasets you explored and why you picked them.]
 
-The raw CSV is not included in this repository. Download it from the link above.
-Intake details used in examples are fictional and labelled illustrative.
+## My datasets
+| Dataset | Publisher | My finding | Page |
+|---|---|---|---|
+| [name] | [publisher] | [your finding sentence, copied exactly from its page] | [full link to the page] |
 
-## Files
-- [`case/project-brief.md`](https://github.com/annagibson865-lang/gmba634-term-project/blob/main/case/project-brief.md): project brief
-- [`ai-component/project-instructions.md`](https://github.com/annagibson865-lang/gmba634-term-project/blob/main/ai-component/project-instructions.md): the standing instructions I gave my AI assistant
-- `counts.py`: counts records, distinct EINs and blank/zero amounts. Run: `python counts.py eo1.csv`
-- `pilot_scenarios_illustrative.csv`: 10 fictional intake scenarios for the pilot (times and catches blank until the pilot is run)
-- `lookup.py`: exact EIN lookup that flags name, exemption-type and state differences. Run: `python lookup.py eo1.csv pilot_scenarios_illustrative.csv`
-- `lookup_results.csv`: output of `lookup.py` on the 10 scenarios
-- `pilot_summary.py`: medians and the reversal test. Run: `python pilot_summary.py pilot_results_illustrative.csv`
-- `pilot_results_illustrative.csv`: **made-up** pilot times for the class presentation (labelled illustrative; not measured)
+## How to check my numbers
+Every number in my findings is in analysis/number-trail.md, with the dataset, filter and pivot it came from. My pivot values are saved in the analysis folder as short-name-pivot.csv files.
 
-## Status
-The lookup has been run on the 10 illustrative scenarios. The pilot times in pilot_results_illustrative.csv are **made up** for the class presentation (the course allows made-up data); they were not measured. With those illustrative times: median 187.5 s manual vs 109.5 s AI-assisted, no material discrepancies missed.
+## How I used AI
+[One honest sentence. Example, change it to be true: I used an LLM to check my sentences against the pivot numbers I pasted. I built every pivot myself and wrote every finding myself.]
 
-## AI use
-This is a class project, not paid, employer or client work. Claude (Anthropic) interviewed me to structure the project brief, wrote counts.py, lookup.py and pilot_summary.py, drafted the 10 illustrative scenarios and generated the made-up illustrative pilot times. The ask, hypothesis, reversal sentence and decisions are mine. I have not yet re-run the scripts myself.
+## Data notes
+Sources, links, dates and license notes are in data/SOURCES.md. Files marked LINK ONLY are not stored in this repo.
