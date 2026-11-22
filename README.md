@@ -24,3 +24,7 @@ The lookup has been run on the 10 illustrative scenarios. The pilot times in pil
 
 ## AI use
 This is a class project, not paid, employer or client work. Claude (Anthropic) interviewed me to structure the project brief, wrote counts.py, lookup.py and pilot_summary.py, drafted the 10 illustrative scenarios and generated the made-up illustrative pilot times. The ask, hypothesis, reversal sentence and decisions are mine. I have not yet re-run the scripts myself.
+
+
+## Second project: FEMA subsequent-events screening
+A Python screen that flags fictional audit-client facilities in FEMA-declared disaster areas during subsequent-events review. See [fema-subsequent-events-screening/](fema-subsequent-events-screening/) and its README.
