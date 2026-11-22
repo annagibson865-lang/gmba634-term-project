@@ -1,0 +1,7 @@
+femaDeclarationString,disasterNumber,state,declarationType,declarationDate,incidentType,declarationTitle,incidentBeginDate,incidentEndDate,fipsCountyCode,designatedArea,test_case_note
+TEST-9001-PA,9001,PA,DR,2026-02-20T00:00:00.000Z,Severe Storm,ILLUSTRATIVE TEST - FEBRUARY ICE STORM,2026-02-10T00:00:00.000Z,2026-02-12T00:00:00.000Z,049,Erie (County),Should match: incident overlaps review period
+TEST-9002-PA,9002,PA,EM,2026-01-15T00:00:00.000Z,Flood,ILLUSTRATIVE TEST - DECEMBER FLOODING,2025-12-20T00:00:00.000Z,2025-12-22T00:00:00.000Z,039,Crawford (County),Should match: pre-year-end incident declared during review period
+TEST-9003-PA,9003,PA,EM,2026-03-05T00:00:00.000Z,Severe Storm,ILLUSTRATIVE TEST - STATEWIDE WINTER STORM,2026-03-01T00:00:00.000Z,2026-03-03T00:00:00.000Z,000,Pennsylvania (Statewide),Should match all five: statewide designation
+TEST-9004-PA,9004,PA,DR,2026-04-15T00:00:00.000Z,Flood,ILLUSTRATIVE TEST - APRIL FLOODING,2026-04-08T00:00:00.000Z,2026-04-10T00:00:00.000Z,085,Mercer (County),Should NOT match: incident and declaration after report date
+TEST-9005-PA,9005,PA,DR,2025-12-10T00:00:00.000Z,Severe Storm,ILLUSTRATIVE TEST - NOVEMBER STORM,2025-11-15T00:00:00.000Z,2025-11-16T00:00:00.000Z,123,Warren (County),Should NOT match: incident and declaration before year-end
+TEST-9006-OH,9006,OH,DR,2026-02-01T00:00:00.000Z,Flood,ILLUSTRATIVE TEST - OHIO FLOOD,2026-01-20T00:00:00.000Z,2026-01-22T00:00:00.000Z,007,Erie (County),Should NOT match: same county name in a different state
