@@ -1,0 +1,6 @@
+facility_id,facility_name,facility_type,state,county
+F1,Facility 1 (fictional),Water treatment plant,PA,Erie
+F2,Facility 2 (fictional),Public works garage,PA,Crawford
+F3,Facility 3 (fictional),Administration building,PA,Mercer
+F4,Facility 4 (fictional),Recreation center,PA,Venango
+F5,Facility 5 (fictional),Wastewater pump station,PA,Warren
