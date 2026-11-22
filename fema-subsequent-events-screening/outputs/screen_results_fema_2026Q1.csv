@@ -1,0 +1,6 @@
+facility_id,facility_name,state,county,result,disaster_number,declaration_title,incident_type,incident_begin,incident_end,declaration_date,designated_area,match_reason
+F1,Facility 1 (fictional),PA,Erie,No FEMA match found,,,,,,,,
+F2,Facility 2 (fictional),PA,Crawford,No FEMA match found,,,,,,,,
+F3,Facility 3 (fictional),PA,Mercer,No FEMA match found,,,,,,,,
+F4,Facility 4 (fictional),PA,Venango,No FEMA match found,,,,,,,,
+F5,Facility 5 (fictional),PA,Warren,No FEMA match found,,,,,,,,
