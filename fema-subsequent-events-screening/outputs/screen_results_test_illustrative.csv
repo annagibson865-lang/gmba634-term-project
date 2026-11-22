@@ -1,0 +1,8 @@
+facility_id,facility_name,state,county,result,disaster_number,declaration_title,incident_type,incident_begin,incident_end,declaration_date,designated_area,match_reason
+F1,Facility 1 (fictional),PA,Erie,FEMA match found,TEST-9001-PA,ILLUSTRATIVE TEST - FEBRUARY ICE STORM,Severe Storm,2026-02-10,2026-02-12,2026-02-20,Erie (County),Incident overlaps review period
+F1,Facility 1 (fictional),PA,Erie,FEMA match found,TEST-9003-PA,ILLUSTRATIVE TEST - STATEWIDE WINTER STORM,Severe Storm,2026-03-01,2026-03-03,2026-03-05,Pennsylvania (Statewide),Incident overlaps review period; Statewide designation
+F2,Facility 2 (fictional),PA,Crawford,FEMA match found,TEST-9002-PA,ILLUSTRATIVE TEST - DECEMBER FLOODING,Flood,2025-12-20,2025-12-22,2026-01-15,Crawford (County),"Pre-year-end incident, declaration during review period"
+F2,Facility 2 (fictional),PA,Crawford,FEMA match found,TEST-9003-PA,ILLUSTRATIVE TEST - STATEWIDE WINTER STORM,Severe Storm,2026-03-01,2026-03-03,2026-03-05,Pennsylvania (Statewide),Incident overlaps review period; Statewide designation
+F3,Facility 3 (fictional),PA,Mercer,FEMA match found,TEST-9003-PA,ILLUSTRATIVE TEST - STATEWIDE WINTER STORM,Severe Storm,2026-03-01,2026-03-03,2026-03-05,Pennsylvania (Statewide),Incident overlaps review period; Statewide designation
+F4,Facility 4 (fictional),PA,Venango,FEMA match found,TEST-9003-PA,ILLUSTRATIVE TEST - STATEWIDE WINTER STORM,Severe Storm,2026-03-01,2026-03-03,2026-03-05,Pennsylvania (Statewide),Incident overlaps review period; Statewide designation
+F5,Facility 5 (fictional),PA,Warren,FEMA match found,TEST-9003-PA,ILLUSTRATIVE TEST - STATEWIDE WINTER STORM,Severe Storm,2026-03-01,2026-03-03,2026-03-05,Pennsylvania (Statewide),Incident overlaps review period; Statewide designation
