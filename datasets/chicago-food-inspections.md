@@ -1,7 +1,7 @@
-# [Your decision question, in your words. It ends with a question mark.]
+# Which facility type should receive extra food inspectors in Chicago?
 
 ## Who decides what
-[One or two sentences, your words. Name the job (Chicago health department manager) and the decision.]
+The Chicago health department manager decides which facility type receives extra inspectors.
 
 ## Data
 - Publisher: City of Chicago (Chicago Department of Public Health), City of Chicago data portal
@@ -11,7 +11,7 @@
 - Repo rule: LINK ONLY
 
 ## What one row means
-[One sentence, your words.]
+Each row in the filtered data represents one Canvass or License inspection at a Chicago facility with a result of Fail, Pass, or Pass w/ Conditions.
 
 ## What I did in my tool (Excel or Tableau)
 - Columns I kept: inspection_id, facility_type, risk, inspection_type, results
@@ -302,10 +302,10 @@ Grand Total	23.01%	60.28%	16.71%	100.00%
 From January 2, 2024 through November 20, 2026, among Chicago Canvass and License inspections marked Fail, Pass, or Pass w/ Conditions, restaurants recorded the highest number of failures of any facility type, with 4,495 failures out of 19,211 restaurant inspections (23.4%).
 
 ## What this data cannot show
-[One sentence, your words. Name something your pivot does not tell the reader and why that matters for the decision.]
+The data cannot show how many staff hours inspections take by facility type, so the number of failures alone does not tell the manager how many extra inspectors to assign.
 
 ## What I checked
-[One or two sentences, your words: what your LLM tested, and what you corrected, before and after.]
+D4 checked whether the failed inspection count, total inspection count, and failure rate in my finding matched my pivot tables. I revised the sentence to include the inspection date range, the two inspection types, and the results included in the counts.
 
 ## Number trail
 See analysis/number-trail.md
