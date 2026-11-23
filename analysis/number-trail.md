@@ -4,4 +4,6 @@ Every number in my findings has a row here. Years and dates do not need a row.
 
 | Page | Number or range | Dataset | Filter | Pivot rows / columns / values | Where in your tool (sheet and cell, or Tableau worksheet) |
 |---|---|---|---|---|---|
-| ILLUSTRATION ONLY, delete this row: datasets/example.md | 12 | example dataset | Column C is not blank | rows Column A, values count of Column B | sheet Pivot1, cell B4 |
+| datasets/chicago-food-inspections.md | 4,495 | Chicago food inspections (City of Chicago) | inspection_type = Canvass, License; results = Fail, Pass, Pass w/ Conditions; inspection dates after 2024-01-01 | rows facility_type, columns results, values Count of inspection_id (Restaurant row, Fail column) | sheet Pivot, cell B104 |
+| datasets/chicago-food-inspections.md | 19,211 | Chicago food inspections (City of Chicago) | inspection_type = Canvass, License; results = Fail, Pass, Pass w/ Conditions; inspection dates after 2024-01-01 | rows facility_type, columns results, values Count of inspection_id (Restaurant row, Grand Total column) | sheet Pivot, cell E104 |
+| datasets/chicago-food-inspections.md | 23.4% | Chicago food inspections (City of Chicago) | inspection_type = Canvass, License; results = Fail, Pass, Pass w/ Conditions; inspection dates after 2024-01-01 | rows facility_type, columns results, values Count of inspection_id shown as % of Row Total (Restaurant row, Fail column, 23.40%) | sheet Pivot - Percent, cell B104 |
