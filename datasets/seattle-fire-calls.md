@@ -1,17 +1,17 @@
-# [Your decision question, in your words. It ends with a question mark.]
+# Which hours of the day should Seattle Fire Department schedule extra medic units for?
 
 ## Who decides what
-[One or two sentences, your words. Name the job (Seattle Fire Department operations planner) and the decision.]
+The Seattle Fire Department’s operations planner decides which hours of the day to schedule extra medic units.
 
 ## Data
 - Publisher: City of Seattle, Seattle Fire Department (data.seattle.gov)
 - Link: https://data.seattle.gov/d/kzjm-xkqj
-- Date accessed: [the day you downloaded the file]
+- Date accessed: November 22, 2026.
 - License or terms: Public Domain (license field on the portal metadata)
 - Repo rule: LINK ONLY
 
 ## What one row means
-[One sentence, your words.]
+Each row represents one Seattle Fire Department dispatch record, with a call type, dispatch date and time, and incident number.
 
 ## What I did in my tool (Excel or Tableau)
 - Columns I kept: type, datetime, incident_number, plus a new Hour column (the hour of datetime, 0 to 23)
@@ -56,10 +56,10 @@ Grand Total	29011	3472	5339	3649	41471
 From January 1 through June 30, 2025, Seattle Fire Department’s busiest hour for Aid Response calls was 4:00–4:59 p.m., with 1,651 dispatches.
 
 ## What this data cannot show
-[One sentence, your words. Name something your pivot does not tell the reader and why that matters for the decision.]
+The dispatch counts leave out how serious the calls were and how quickly crews responded, so the planner can see when call volume was highest but would need more information to tell when extra medic units would improve response times.
 
 ## What I checked
-[One or two sentences, your words: what your LLM tested, your expected and found counts, and anything you checked or corrected.]
+I expected 41,471 dispatch records for the call types in my pivot, and the check pivot showed 41,471. For D4, I checked that my finding matched the Aid Response count for the 4 p.m. hour. I also confirmed that the pivot counts matched the main dispatch sheet, which covers January 1 through June 30, 2025.
 
 ## Number trail
 See analysis/number-trail.md
