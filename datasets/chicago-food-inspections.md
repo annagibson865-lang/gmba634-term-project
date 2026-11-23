@@ -305,7 +305,7 @@ From January 2, 2024 through November 20, 2026, among Chicago Canvass and Licens
 The data cannot show how many staff hours inspections take by facility type, so the number of failures alone does not tell the manager how many extra inspectors to assign.
 
 ## What I checked
-D4 checked whether the failed inspection count, total inspection count, and failure rate in my finding matched my pivot tables. I revised the sentence to include the inspection date range, the two inspection types, and the results included in the counts.
+I expected 28,377 inspection records after applying my filters, and my check pivot matched that count. D4 checked whether the failed inspection count, total inspection count, and failure rate in my finding matched my pivot tables. I then revised my finding to include the date range, inspection types, and results included in the counts.
 
 ## Number trail
 See analysis/number-trail.md
