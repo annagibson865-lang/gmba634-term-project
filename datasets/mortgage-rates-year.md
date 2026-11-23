@@ -1,7 +1,7 @@
-# [Your decision question, in your words. It ends with a question mark.]
+# Should the family buy a home now or wait a year?
 
 ## Who decides what
-[One or two sentences, your words. Name the job (an adviser to a family) and the decision (buy now or wait a year).]
+The adviser helps the family decide whether to buy a home now or wait a year.
 
 ## Data
 - Publisher: Freddie Mac Primary Mortgage Market Survey, distributed by the Federal Reserve Bank of St. Louis (FRED)
@@ -11,7 +11,7 @@
 - Repo rule: LINK ONLY
 
 ## What one row means
-[One sentence, your words.]
+Each row in the source data shows the U.S. average 30-year fixed mortgage rate for one weekly observation date.
 
 ## What I did in my tool (Excel or Tableau)
 - Columns I kept: observation_date, MORTGAGE30US, Year (a new column, =YEAR of observation_date)
@@ -60,10 +60,10 @@ Grand Total	620
 In the dataset spanning January 8, 2015, through November 19, 2026, the average 30-year fixed mortgage rate for 2026 through November 19 was 6.56%, lower than the 6.60% average for 2025.
 
 ## What this data cannot show
-[One sentence, your words. Name something your pivot does not tell the reader and why that matters for the decision.]
+The historical data cannot show what mortgage rate the family would qualify for a year from now, so it cannot tell them whether waiting would lower their borrowing costs.
 
 ## What I checked
-[One or two sentences, your words: what D4 tested, your expected and found counts, and what you changed (for example, removing the word "slightly" and the blank row).]
+I expected 620 weekly rate observations, and my check pivot showed 620. For D4, I checked the 2025 and 2026 averages in my finding against the pivot. I removed the word “slightly,” rounded both rates to two decimal places, and removed the blank row from the pivot.
 
 ## Number trail
 See analysis/number-trail.md
