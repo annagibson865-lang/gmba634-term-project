@@ -1,9 +1,9 @@
-# [Your name or alias]: public datasets and the decisions they help with
+# Girlboss: public datasets and the decisions they help with
 
 This is a class project for GMBA 634 at Gannon University. It is not paid or client work.
 
 ## What I did
-[Two or three sentences in your own words: which datasets you explored and why you picked them.]
+I explored Chicago food inspections, Seattle Fire Department dispatches, and U.S. 30-year fixed mortgage rates. These datasets interested me because I wanted to see how data could inform different decisions, from where to assign extra food inspectors and when to schedule extra medic units to whether a family should buy a home now or wait a year.
 
 ## My datasets
 | Dataset | Publisher | My finding | Page |
@@ -16,7 +16,7 @@ This is a class project for GMBA 634 at Gannon University. It is not paid or cli
 Every number in my findings is in analysis/number-trail.md, with the dataset, filter and pivot it came from. My pivot values are saved in the analysis folder as short-name-pivot.csv files.
 
 ## How I used AI
-[One honest sentence. Example, change it to be true: I used an LLM to check my sentences against the pivot numbers I pasted. I built every pivot myself and wrote every finding myself.]
+I built every pivot myself in Excel and wrote every finding and page answer myself; I used Claude (an LLM) to test my findings against the pivot numbers I pasted (prompt D4), to fill in the factual parts of my pages, number trail and source cards from my own numbers, and to make the GitHub commits and pull requests for me to review and merge.
 
 ## Data notes
 Sources, links, dates and license notes are in data/SOURCES.md. Files marked LINK ONLY are not stored in this repo.
